@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family:"Gill Sans", "Gill Sans MT", "Microsoft Yahei", "DejaVu Sans Condensed", "sans-serif";
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -27,6 +27,7 @@ hr{
 	text-align: center;
 }
 
+
 .projects{
 	margin-left: 40px;
 	margin-right: 40px;
@@ -51,38 +52,52 @@ hr{
 	float: right;
 }
 
+.quote{
+	color: #3C8067;
+	float: right;
+}
+
+h2{
+	font:italic;
+}
+
 /* Navigation */
 header {
 	width: 100%;
-	height: 46px;
-	background-color: #E9BAB5;
-	border-bottom: 5px solid #E9BAB5;
+  	padding-top: 10px;
+  	text-align: center;
 }
+
+header p {
+	font-size: 20px;
+}
+
 nav {
-	float: right;
-	text-align: right;
+	float:none;
+	text-align: center ;
 	margin-right: 25px;
 }
 header nav ul {
 	list-style: none;
-	float: right;
+	text-align: center;
 }
 nav ul li {
-	float: left;
-	color: #FFFFFF;
+	display: inline;
+	text-align: center;
+	color: #00000;
 	font-size: 14px;
-	text-align: left;
 	margin-right: 25px;
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
 ul li a {
-	color: #FFFFFF;
+	color: #3C8067;
+	font-weight:bolder;
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #A03A2F ;
+	color: #3A5F51;
 }
 
 /* Hero Section */
@@ -92,7 +107,7 @@ ul li:hover a {
 	position: relative;
 	width: 60%;	
 	overflow: auto;
-	border-bottom: 2px dashed #E9BAB5;
+	border-bottom: 2px dashed #3C8067;
 	padding-bottom: 40px;
 }
 
@@ -107,6 +122,23 @@ ul li:hover a {
 	float: right;	
 }
 
+.success{
+	background: #3C8067;
+	font-size: 15px;
+	color: white;
+  	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 12px;
+	float: left;
+}
+.green{
+	color: #3C8067;
+}
+
+.i{
+	font-style: italic;
+}
 
 /* About Section */
 
@@ -212,7 +244,7 @@ footer .footer_column p {
 	margin-bottom: 0px;
 	color:#000000;
 	text-align: center;
-	border-top: 2px dashed #E9BAB5;
+	border-top: 2px dashed #3C8067;
 	margin: auto;
 	position: relative;
 	width: 60%;
